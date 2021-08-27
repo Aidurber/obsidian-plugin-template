@@ -1,3 +1,9 @@
+# Template
+
+- Change name and description in package.json
+- Change name, id, and description in manifest.json
+- Change PLUGIN_NAME in release.yml
+
 # Plugin Name
 
 Give an overview of your plugin overvew
@@ -24,7 +30,7 @@ To start a release build run the following command:
 
 ```bash
 yarn release
-git push --follow-tags origin master
+git push --follow-tags origin main
 ```
 
 ---
